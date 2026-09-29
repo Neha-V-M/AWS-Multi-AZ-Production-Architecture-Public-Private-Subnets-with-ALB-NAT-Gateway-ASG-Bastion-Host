@@ -23,8 +23,6 @@ A hands-on implementation of the AWS-recommended pattern for securely hosting ap
 11. [Cost & Cleanup](#cost--cleanup)
 12. [Repository Structure](#repository-structure)
 13. [Key Takeaways](#key-takeaways)
-14. [Acknowledgements](#acknowledgements)
-
 ---
 
 ## Project Overview
@@ -85,7 +83,7 @@ flowchart TB
     BASTION -- "SSH (22)" --> EC2A & EC2B
 ```
 
- `![Architecture](docs/architecture.png)`
+![Architecture](./docs/architecture.png)
 
 ---
 
